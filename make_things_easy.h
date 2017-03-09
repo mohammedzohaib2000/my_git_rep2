@@ -3,7 +3,8 @@
 #include <string.h>
 
 // A function to display an error message and then exit
-void fatal(char *message) {
+void fatal(char *message) 
+{
    char error_message[100];
 
    strcpy(error_message, "[!!] Fatal Error ");

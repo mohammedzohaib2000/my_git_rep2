@@ -40,7 +40,7 @@ int recv_line(int sockfd, unsigned char *dest_buffer) {
       }   
       ptr++; // increment the pointer to the next byter;
    }
-   return 0; // didn't find the end of line characters
+   return 0; // didn't find the end of ln characters
 }
 
 

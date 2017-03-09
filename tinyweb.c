@@ -6,8 +6,8 @@
 #include <sys/socket.h>
 #include <netinet/in.h>
 #include <arpa/inet.h>
-#include "hacking.h"
-#include "hacking-network.h"
+#include "make_things_easy.h"
+#include "make_things_easy_network.h"
 
 #define PORT 80   // the port users will be connecting to
 #define WEBROOT "./webroot" // the web server's root directory
